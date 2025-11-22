@@ -86,7 +86,7 @@ export const location_data = [
         "name": "LGBTQ+ Center",
         "address": "400 E Pine St, Seattle, WA 98122",
         "desc": "Located inside the center",
-        "full_description": "This is our only fridge that’s indoors, and is only available when the center is open. (https://www.gaycity.org/) This is a full-size fridge. The pantry is not stocked by us, but you should be welcome to take food from there.",
+        "full_description": "This is our only fridge that’s indoors, and is only available when the center is open (Tuesday-Saturday). (https://www.gaycity.org/) This is a full-size fridge. The pantry is not stocked by us, but you should be welcome to take food from there.",
         "coord": {
             lat: 47.61554205613653,
             lng: -122.32654650438295
