@@ -138,23 +138,23 @@ export const location_data = [
     {
         "name": "Estelita’s Library (Central District)",
         "address": "241 Martin Luther King Jr Way S, Seattle, WA 98144",
-        "full_description": "Estelita's Library's fridge is now available! The full-sized fridge, public telephone (provided by Futel), and free WiFi are fully operational. The large pantry, street sink, and mutual aid station are currently under construction.",
+        "full_description": "The Estelita's Library's fridge is now available! It is located on the left side of the library. The full-sized fridge, public telephone (provided by Futel), large pantry, and free WiFi are fully operational. The street sink is currently under construction.",
         "coord": {
             lat: 47.600396775707445,
             lng: -122.2972817120421
         },
-        "image": "/fridge-images/Estelitas.jpg",
+        "image": "/fridge-images/Estelitas 1.jpg",
         "closest_stops": [
             {
-                line: "8",
+                line: "8 (NB), 14",
                 stop_name: "S Jackson St & Martin L King Jr Way S"
             },
             {
-                line: "27",
-                stop_name: "E Yesler Way / 27th Ave S"
+                line: "8 (SB), 27",
+                stop_name: "E Yesler Way & 27th Ave S"
             },
             {
-                line: "48",
+                line: "4, 48",
                 stop_name: "23rd Ave S & E Yesler Way"
             }
         ]
