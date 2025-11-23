@@ -32,7 +32,7 @@ export const location_data = [
                 stop_name: "Rainier Ave S & S Rose St"
             },
             {
-                line: "107",
+                line: "106, 107",
                 stop_name: "Rainier Ave S & S Henderson St"
             },
             {
@@ -52,13 +52,13 @@ export const location_data = [
         "image": "/fridge-images/NBH 2.jpg",
         "closest_stops": [
             {
-                line: "36",
-                stop_name: "14th Ave S & Golf Dr S"
-            }, 
-            {
-                line: "60",
+                line: "36, 60 (NB)",
                 stop_name: "12th Ave S & S Judkins St"
-            } 
+            },
+            {
+                line: "36, 60 (SB)",
+                stop_name: "14th Ave S & Golf Dr S"
+            }
         ]
     },
     {
@@ -74,12 +74,16 @@ export const location_data = [
         "closest_stops": [
             {
                 line: "12",
-                stop_name: "19th Ave E & E Roy St"
+                stop_name: "19th Ave E & E Aloha St"
             }, 
             {
-                line: "43",
-                stop_name: "E Thomas St & 16th Ave E"
-            } 
+                line: "48",
+                stop_name: "23rd Ave E & E Aloha St"
+            }, 
+            {
+                line: "10",
+                stop_name: "15th Ave E & E Aloha St"
+            }
         ]
     },
     {
@@ -94,17 +98,21 @@ export const location_data = [
         "image": "/fridge-images/LGBTQ Plus 2.jpg",
         "closest_stops": [
             {
-                line: "12",
-                stop_name: "E Pine St & Belmont Ave"
+                line: "3, 10, 11, 12, 49",
+                stop_name: "E Pine St & Bellevue Ave"
             }, 
             {
-                line: "11",
-                stop_name: "Bellevue Ave & E Olive St"
+                line: "3, 11",
+                stop_name: "Bellevue Ave & E Olive Way"
             }, 
             {
                 line: "8",
-                stop_name: "E Denny Way & Bellevue Ave E"
-            } 
+                stop_name: "E Denny Way & Melrose Ave/Bellevue Ave"
+            },
+            {
+                line: "1 Line",
+                stop_name: "Capitol Hill"
+            }
         ]
     },
     {
@@ -119,7 +127,11 @@ export const location_data = [
         "closest_stops": [
             {
                 line: "128",
-                stop_name: "4th Ave SW & SW 116th St"
+                stop_name: "S 112th St & 10th Ave S (1/2 mile south)"
+            },
+            {
+                line: "132",
+                stop_name: "S 120th St & Des Moines Memorial Dr S (1 mile northwest)"
             }
         ]
     },
