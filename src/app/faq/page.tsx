@@ -1,0 +1,112 @@
+export default function Faq() {
+    return (
+        <section className="text-center">
+            <h1 className="text-3xl sm:text-6xl mt-14 font-SauceTomato text-blue-500">FREQUENTLY ASKED QUESTIONS</h1>
+            <div>
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">What can I donate?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Any wholesome food that you would gladly feed your loved ones.
+                </p>
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">How can I donate food?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Please see the <a className="text-blue-500" href="/guidelines">donation guidelines</a>.
+                </p>
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Do you accept expired food?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Yes, but please see the <a className="text-blue-500" href="/guidelines">food donation guidelines</a>. Most expiration dates on things like canned food are not based on any scientific or legal criteria and are mostly a way to encourage us to throw away perfectly good food and buy more. Please see this <a className="text-blue-500" href="https://www.usda.gov/about-usda/news/blog/save-money-knowing-when-food-safe">USDA article</a> to find out more. But please don’t put questionable produce or other marginal perishables in the fridge. Hungry people want to eat exactly what you want to eat and are no more likely to eat food going bad than you are.
+                </p>
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Can I cook up a big pan of something and put the whole thing in the fridge?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    No. As soon as one person accesses a large pan of food it’s considered contaminated. It may feel wasteful, but the only way we can accept such food is in individual containers. If you want to do this and need compostable containers, we can sometimes supply them; <a className="text-blue-500" href="mailto:seattlecommunityfridge@gmail.com">contact us</a> to find out more.
+                </p>
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">How can I donate money?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Any way you like! We can accept cash and checks, of course, but the easiest way is through our <a className="text-blue-500" href="https://www.wagives.org/organization/Seattle-Community-Fridge">Washington Gives page</a>, where you can use any method of payment you like. Because we are all volunteers and have essentially no overhead, nearly 100% of your donation will go to helping those in need.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">How can I help?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    In general, anyone can donate food or go to a fridge now and then to make sure it and the pantry are organized and clean. Beyond those simple but essential tasks, there are many ways you can get involved; please see the <a className="text-blue-500" href="/volunteer">volunteer page here</a>.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Where are your fridges located?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Please see the <a className="text-blue-500" href="/locations">locations page</a>; this includes both the address and the nearest bus routes.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Isn't it hazardous for just anyone to be able to donate to the fridges and pantries?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    The community fridge system has been in place for decades all over the world, and the incidence of food-borne illness or other issues are extremely rare. The benefits of being able to freely give and receive food far outweigh any potential hazards.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Isn't there a liability issue?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    We have liability insurance, but generally speaking liability has not been an issue, either here or elsewhere around the world. Please see <a className="text-blue-500" href="https://drive.google.com/file/d/1O_44v7yoTkj3BIqw6SImhFrfygohMJgv/view">this article from Freedge</a> about food liability and the fridges.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Do you accept things other than food?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Yes! Anything you think people might need is welcome. We always stock menstrual products (more are always welcome), but soap, shampoo, combs, brushes, that sort of thing are very nice to have in stock.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">What is mutual aid? How is it different from charity?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Mutual aid is neighbors helping neighbors on an equal basis. Charity is inherently paternalistic, in that the giver determines what is needed (and what is not) and who deserves to get what and how much. Charity also has the unintended consequence of perpetuating harm by institutionalizing need. Mutual aid begins from the assumption that needs not being met are the result of societal inequity and systemic injustice.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">How are community fridges different from food banks?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    We don't wish to denigrate the work of food banks–they feed a lot of people, far more than we can. Some also give us their excess food to distribute, for which we are grateful. But food banks fall solidly into the charity mindset, with an inherently authoritarian structure to the way food is distributed. They also inadvertently perpetuate hunger by institutionalizing it; one need only look at the beautiful, huge structures they have built to house their services to understand that hunger is, whether they intend it or not, a permanent societal fixture which, from that perspective, can only be addressed through corporatized charity.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Are there political or ideological ideas behind mutual aid and/or SCF?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Not explicitly, but please read the Community Understandings at the end of this document. We do not advocate any particular ideology, but are in broad agreement that need derives from injustice, not moral failing.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">How often do you clean the fridges?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    As often as we can, and a minimum of once a week. The fact is that the fridges are so often accessed that daily spot cleaning and a weekly thorough clean would be ideal, but that’s not always realistic because we are all volunteers with lives.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">How does the organization work? Who's in charge?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    We are a non-hierarchical collective, which means we are all in charge. As soon as you join us you have an equal voice. Don’t worry, though–“non-hierarchical collective” is just our fancy way of saying we are a bunch of people who care and do what we can to make our neighbors’ lives better without getting all hung up in structures of domination and control.
+                </p>
+
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Are you a not-for-profit?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    We are a sponsored nfp through <a className="text-blue-500" href="freedge.org">freedge.org</a> (aka Left Lovers)
+                </p>
+                <h2 className="text-3xl sm:text-5xl mt-14 text-blue-500">Some mutual aid groups distrust not-for-profit status; why is this and how are you different?</h2>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Because we have physical infrastructure, we worry that there may be liability associated with our work (a fridge being tipped and falling on someone, for example). Being part of an incorporated entity at least to some extent shields those who work with us from personal liability.
+                </p>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    We do understand the distrust our fellow mutual aid groups feel toward many nfp organizations. Please see the discussion above about the difference between mutual aid and charity. Most nfp’s are engaged in charity. We strive to do an ongoing examination of our motives and actions to keep from falling into that trap.
+                </p>
+                <h1 className="text-3xl sm:text-6xl mt-14 font-SauceTomato text-blue-500">Seattle Community Fridge Community Understandings</h1>
+                <p className="text-black text-xl w-2/3 mx-auto my-8">
+                    Everyone who works with SCF represents us; our shared values are reflected in the work we do, as well as the interactions we have at the fridges and elsewhere. By accepting a volunteer position with SCF, you are agreeing to work within these values:
+                </p>
+                <ul>
+                    <li>
+                        <p className="text-black text-xl w-2/3 mx-auto my-8">
+                            We go into this work with kindness, consideration, open-heartedness and an assumption of absolute equality.
+                        </p>
+                    </li>
+                    <li>
+                        <p className="text-black text-xl w-2/3 mx-auto my-8">
+                            Our work is grounded in an understanding and investigation of the root causes of hunger and the intersection of food insecurity with other forms of injustice, including but not limited to gender, sexual, racial, and disability justice struggles. It is vital that every action you take on behalf of SCF be informed by your own consideration of these issues and inequities.
+                        </p>
+                    </li>
+                    <li>
+                        <p className="text-black text-xl w-2/3 mx-auto my-8">
+                            Notwithstanding everything above, we are here primarily to provide food and reduce food waste. Any impulse to enforce ideological purity as a condition for doing this work should be avoided if it interferes with that primary purpose. We ask that you conform to the values stated above to work with SCF, but beyond that we do not judge anyone's beliefs.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    )
+}
