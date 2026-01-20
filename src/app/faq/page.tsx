@@ -85,7 +85,7 @@ export default function Faq() {
 
                 <h2 className="text-3xl xm:text-4xl mt-8 text-blue-500">Are you a not-for-profit?</h2>
                 <p className="text-black text-lg w-2/3 mx-auto my-2">
-                    We are a sponsored nfp through <a className="text-blue-500" href="freedge.org">freedge.org</a> (aka Left Lovers)
+                    We are a sponsored nfp through <a className="text-blue-500" href="https://freedge.org/">freedge.org</a> (aka Left Lovers)
                 </p>
                 <h2 className="text-3xl xm:text-4xl mt-8 text-blue-500">Some mutual aid groups distrust not-for-profit status; why is this and how are you different?</h2>
                 <p className="text-black text-lg w-2/3 mx-auto my-2">
