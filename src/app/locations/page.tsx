@@ -32,7 +32,7 @@ export default function Locations() {
             <div className="w-full h-full space-t-16 sm:pt-0 pt-20 mt-0 sm:mt-10">
                 <div className="w-10/12 mx-auto sm:flex">
                     <div className="h-[250px] sm:h-[720px] w-full sm:w-1/2 border border-black rounded-lg">
-                        <APIProvider apiKey={ "AIzaSyCctoSJUYTyJjhImZZS4NArmaEF5e1bPUg" }>
+                        <APIProvider apiKey={ process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY! }>
                             <Map mapId={"12345"} className="rounded-lg w-full h-full" {...cameraProps} onCameraChanged={handleCameraChange} gestureHandling={"greedy"} disableDefaultUI>
                                 <AdvancedMarker position={markerLocation}>
                                     <img src={logo_img} className="w-9 h-9" />
