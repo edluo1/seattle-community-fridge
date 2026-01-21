@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       <main className="text-center">
-        <h1 className="text-3xl sm:text-6xl mt-6 font-SauceTomato text-blue-500">SEATTLE COMMUNITY FRIDGE</h1>
+        <h1>SEATTLE COMMUNITY FRIDGE</h1>
         <div className="block lg:flex w-10/12 mx-auto">
           <div className="w-full my-auto lg:w-1/2">
 	      <Image 
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="w-full lg:w-1/3 mx-auto text-black text-xl sm:text-3xl">
               <p className="text-gray-700">
                   Seattle Community Fridge is a mutual aid group that provides refrigerators and pantries in order to combat food insecurity.
-		  Click <Link className="text-blue-500" href="/locations">here</Link> for a list of our fridges.
+		              Click <Link className="text-blue-500" href="/locations">here</Link> for a list of our fridges.
               </p>
           </div>
         </div>

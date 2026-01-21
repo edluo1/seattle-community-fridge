@@ -6,7 +6,7 @@ export default function About() {
       ]
     return (
         <section className="text-center">
-            <h1 className="text-3xl sm:text-6xl mt-14 font-SauceTomato text-blue-500">About SEATTLE COMMUNITY FRIDGE</h1>
+            <h1>About SEATTLE COMMUNITY FRIDGE</h1>
             <p className="text-black text-xl w-2/3 mx-auto my-8">
                 Seattle Community Fridge is a 501(c)(3) mutual aid group whose work strives to curb food insecurity on occupied Duwamish land 
                 by providing healthy food in our fridges and pantries, available directly to communities. Seattle Community Fridge believes that food scarcity is 

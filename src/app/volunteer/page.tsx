@@ -1,7 +1,7 @@
 export default function Volunteer() {
     return (
         <section className="h-full w-full">
-            <h1 className="text-blue-500 text-3xl sm:text-6xl font-SauceTomato text-center my-6">Volunteer Opportunities</h1>
+            <h1>Volunteer Opportunities</h1>
             <div className="block lg:flex w-10/12 mx-auto">
                 <div className="w-full my-auto lg:w-1/2">
                     <img src="https://storage.googleapis.com/seattle-community-fridge/volunteer/reid_volunteer.jpg" alt="reid_volunteer"></img>

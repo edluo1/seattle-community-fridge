@@ -28,11 +28,11 @@ export default function Locations() {
 
     return (
         <section>
-            <h1 className="text-3xl text-center sm:text-6xl mt-14 font-SauceTomato text-blue-500">Locations</h1>
+            <h1>Locations</h1>
             <div className="w-full h-full space-t-16 sm:pt-0 pt-20 mt-0 sm:mt-10">
                 <div className="w-10/12 mx-auto sm:flex">
                     <div className="h-[250px] sm:h-[720px] w-full sm:w-1/2 border border-black rounded-lg">
-                        <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
+                        <APIProvider apiKey={ "AIzaSyCctoSJUYTyJjhImZZS4NArmaEF5e1bPUg" }>
                             <Map mapId={"12345"} className="rounded-lg w-full h-full" {...cameraProps} onCameraChanged={handleCameraChange} gestureHandling={"greedy"} disableDefaultUI>
                                 <AdvancedMarker position={markerLocation}>
                                     <img src={logo_img} className="w-9 h-9" />
@@ -41,7 +41,7 @@ export default function Locations() {
                         </APIProvider>
                     </div>
                     <div className="w-full sm:w-1/2 bg-white rounded-b-lg sm:rounded-r-lg text-black space-y-6 p-4 pb-10 px-2">
-                        <h2 className="text-2xl font-semibold text-gray-900 sm:text-2xl">
+                        <h2 className="location">
                             Click "View" next to a fridge location to see details.
                         </h2>
                         {location_data.map((location, i) => (
