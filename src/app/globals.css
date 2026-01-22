@@ -42,6 +42,27 @@
       rgb(var(--background-start-rgb));
     /* background-image: url('https://storage.googleapis.com/el-gran-taco-seattle/construction/whitebackground_scaled_0.5.jpg'); */
   }
+
+  h1 { /* Used at the top of most pages. */
+    @apply text-blue-500 text-3xl sm:text-6xl font-SauceTomato text-center my-6;
+  }
+
+  h2.location { /* Used in location page */
+    @apply text-2xl font-semibold text-gray-900 sm:text-2xl;
+  }
+
+  h2.question { /* Used in FAQ */
+    @apply text-3xl sm:text-4xl mt-8 text-blue-500;
+  }
+  
+  p.answer {
+    @apply text-black text-xl w-2/3 mx-auto my-2;
+  }
+
+  a {
+    @apply text-blue-500;
+  }
+
 }
 
 @layer base {

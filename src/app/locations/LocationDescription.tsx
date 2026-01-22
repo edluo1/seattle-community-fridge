@@ -19,7 +19,7 @@ export default function LocationDescription(descriptionProps: DescriptionProps) 
                 <div className="flex flex-col md:flex-row w-full items-center md:items-start gap-6">
                     <div className="md:w-1/2 p-7">
                         <div className="max-w-lg md:max-w-none">
-                            <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
+                            <h2 className="location">
                                 {name}
                             </h2>
   
