@@ -16,11 +16,11 @@ export default function Locations() {
     const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
     const [dialogLocation, setDialogLocation] = useState("");
 
-    const [markerLocation, setMarkerLocation] = useState(location_data[0]['coord']);
+    const [markerLocation, setMarkerLocation] = useState(location_data[3]['coord']);
 
     const INITIAL_CAMERA = {
         center: markerLocation,
-        zoom: 16
+        zoom: 11
     };
 
     const [cameraProps, setCameraProps] = useState<MapCameraProps>(INITIAL_CAMERA);
@@ -34,9 +34,11 @@ export default function Locations() {
                     <div className="h-[250px] sm:h-[720px] w-full sm:w-1/2 border border-black rounded-lg">
                         <APIProvider apiKey={ process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY! }>
                             <Map mapId={"12345"} className="rounded-lg w-full h-full" {...cameraProps} onCameraChanged={handleCameraChange} gestureHandling={"greedy"} disableDefaultUI>
-                                <AdvancedMarker position={markerLocation}>
-                                    <img src={logo_img} className="w-9 h-9" />
-                                </AdvancedMarker>
+                                {location_data.map((location, i) => ( // Display all of the markers on screen.
+                                    <AdvancedMarker position={location.coord} key={i}>
+                                        <img src={logo_img} className="w-9 h-9" />
+                                    </AdvancedMarker>
+                                ))}
                             </Map>
                         </APIProvider>
                     </div>
@@ -56,6 +58,7 @@ export default function Locations() {
                                     setMarkerLocation(location.coord);
                                     const newCameraProps = cameraProps;
                                     newCameraProps.center = location.coord;
+                                    newCameraProps.zoom = 15;
                                     setCameraProps(newCameraProps);
                                 }}>View</button>
                             </div>
