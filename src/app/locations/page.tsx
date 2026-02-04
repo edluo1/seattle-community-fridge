@@ -16,7 +16,8 @@ export default function Locations() {
     const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
     const [dialogLocation, setDialogLocation] = useState("");
 
-    const [markerLocation, setMarkerLocation] = useState(location_data[3]['coord']);
+    // Starts centered on the LGBTQ+ center since it's closest to the middle of the city
+    const [markerLocation, setMarkerLocation] = useState(location_data[4]['coord']); 
 
     const INITIAL_CAMERA = {
         center: markerLocation,
