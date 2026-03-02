@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { Button } from '@headlessui/react'
 import Navigation from './components/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -27,25 +28,22 @@ export default function Home() {
         <h1>SEATTLE COMMUNITY FRIDGE</h1>
         <div className="block lg:flex w-10/12 mx-auto">
           <div className="w-full my-auto lg:w-1/2">
-	      <Image 
-              	width={500} height={0} src={"/fridge-images/scf-frontpage.jpg"} alt="A fridge and pantry set up by Seattle Community Fridge." />
-              {/* {
-                pics.map((pic: string, i: number) => (
-                  <div key={i.toString()} className="w-full sm:w-1/4 overflow-x-hidden">
-                    <img src={pic} key={i.toString()} alt={i.toString()}></img>
-                  </div>
-                )
-
-                )
-              } */}
-          </div>
+            <Image width={500} height={0} src={"/fridge-images/scf-frontpage.jpg"} alt="A fridge and pantry set up by Seattle Community Fridge." />          </div>
           <div className="w-full lg:w-1/3 mx-auto text-black text-xl sm:text-3xl">
               <p className="text-gray-700">
                   Seattle Community Fridge is a mutual aid group that provides refrigerators and pantries in order to combat food insecurity.
-		              Click <Link className="text-blue-500" href="/locations">here</Link> for a list of our fridges.
               </p>
           </div>
+
         </div>
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 w-10/12 mx-auto">
+          <div className="row-span-2 grid grid-cols-1 justify-items-center">
+            <Button as="a" href="/locations"><Image className="justify-end" width={150} height={0} src="/fridge_map_icon.png" id="Fridge Map" alt="Fridge Map" />Fridge Map</Button>
+          </div>
+          <Button as="a" href="/getfood">Get Food</Button>
+          <Button as="a" className="col-start-2 row-start-2" href="/volunteer">Get Involved</Button>
+        </div>
+
         <h2 className="text-2xl md:text-5xl mt-14 font-SauceTomato text-blue-500">UPCOMING EVENTS</h2>
         <div className="w-full flex justify-center my-8">
           <iframe 
