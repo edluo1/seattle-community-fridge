@@ -19,12 +19,11 @@ export default function GetFood() {
                 </Button>
                 </div>
             </div>
-
             <h1 className="text-3xl sm:text-6xl mt-8 font-SauceTomato text-blue-500">FAQ</h1>
             <div>
                 <h2 className="question">What time or day can I come by for food?</h2>
                 <ul className="answer">
-                    <li>Phinney Ridge, Dunlap/Rainier Beach, North Beacon Hill, Capitol Hill Fridge, Burien, and Estelita’s Library fridges and pantries are open 24/7, all day / everyday! Come by these fridges any time or day to get food! While we cannot guarantee when there will be food available, you can come by any time or day to check.</li>
+                    <li className="mb-6">Phinney Ridge, Dunlap/Rainier Beach, North Beacon Hill, Capitol Hill Fridge, Burien, and Estelita’s Library fridges and pantries are open 24/7, all day / everyday! Come by these fridges any time or day to get food! While we cannot guarantee when there will be food available, you can come by any time or day to check.</li>
                     <li>LGBTQ+ Center Fridge:
                         <ul>
                             <li>Tuesday 1PM to 6PM (Closing at 4PM on the first Tuesday of each month)</li>
