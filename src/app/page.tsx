@@ -28,20 +28,28 @@ export default function Home() {
         <h1>SEATTLE COMMUNITY FRIDGE</h1>
         <div className="block lg:flex w-10/12 mx-auto">
           <div className="w-full my-auto lg:w-1/2">
-            <Image width={500} height={0} src={"/fridge-images/scf-frontpage.jpg"} alt="A fridge and pantry set up by Seattle Community Fridge." />          </div>
-          <div className="w-full lg:w-1/3 mx-auto text-black text-xl sm:text-3xl">
-              <p className="text-gray-700">
-                  Seattle Community Fridge is a mutual aid group that provides refrigerators and pantries in order to combat food insecurity.
-              </p>
+            <Image width={500} height={0} src={"/fridge-images/scf-frontpage.jpg"} alt="A fridge and pantry set up by Seattle Community Fridge." />
           </div>
-
-        </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 w-10/12 mx-auto">
-          <div className="row-span-2 grid grid-cols-1 justify-items-center">
-            <Button as="a" href="/locations"><Image className="justify-end" width={150} height={0} src="/fridge_map_icon.png" id="Fridge Map" alt="Fridge Map" />Fridge Map</Button>
+          <div className="w-full lg:w-1/2 text-black text-xl sm:text-3xl">
+            <p className="text-gray-700">
+              Seattle Community Fridge is a mutual aid network of eight refrigerator/pantry sites around the City, staffed solely by volunteers. We acquire refrigerators, build and maintain site shelters, and source and deliver food contributions to combat food insecurity among our neighbors.            </p>
+            <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full">
+              <div className="row-span-2">
+                <Button as="a" className="flex items-center justify-center border-black border bg-blue-500 w-full h-full my-auto rounded-lg text-black" href="/locations" title="Fridge Map">
+                  <div className="grid grid-cols-1 justify-items-center">
+                    <div><Image width={200} height={0} src="/fridge_map_icon.png" id="Fridge Map" alt="Fridge Map" /></div>
+                    <div>Fridge Locations</div>
+                  </div>
+                </Button>
+              </div>
+              <Button as="a" href="/getfood" className="flex items-center justify-center border-black border bg-teal-500 w-full h-full my-auto rounded-lg text-black">
+                Get Food
+              </Button>
+              <Button as="a" className="flex items-center justify-center col-start-2 row-start-2 border-black border bg-green-500 w-full h-full my-auto rounded-lg text-black" href="/volunteer">
+                Get Involved
+              </Button>
+            </div>
           </div>
-          <Button as="a" href="/getfood">Get Food</Button>
-          <Button as="a" className="col-start-2 row-start-2" href="/volunteer">Get Involved</Button>
         </div>
 
         <h2 className="text-2xl md:text-5xl mt-14 font-SauceTomato text-blue-500">UPCOMING EVENTS</h2>
