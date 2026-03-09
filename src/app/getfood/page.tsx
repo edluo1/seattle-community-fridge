@@ -11,7 +11,7 @@ export default function GetFood() {
                         <li>Please come to our fridge spaces to get food!</li>
                     </ul>
 
-                <Button as="a" className="flex items-center justify-center border-black border bg-blue-500 w-full h-full my-auto rounded-lg text-black" href="/locations" title="Fridge Map">
+                <Button as="a" className="flex items-center justify-center border-black border bg-blue-500 w-full h-100 my-auto rounded-lg text-black" href="/locations" title="Fridge Map">
                   <div className="grid grid-cols-1 justify-items-center">
                     <div><Image width={200} height={0} src="/fridge_map_icon.png" id="Fridge Map" alt="Fridge Map" /></div>
                     <div>Fridge Locations</div>
