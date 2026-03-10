@@ -116,22 +116,22 @@ export const location_data = [
         ]
     },
     {
-        "name": "Burien",
-        "address": "12027 10th Ave S, Seattle, WA 98168",
-        "full_description": "Managed by a separate group within SCF at 12027 10th Ave S, Seattle, WA 98168. Usually lots of food there.",
+        "name": "Burien (moved from old location!)",
+        "address": "11860 12th Avenue, South Burien, WA 98168",
+        "full_description": "Managed by a separate group within SCF at 11860 12th Avenue, South Burien, WA 98168. Usually lots of food there.",
         "coord": {
-            lat: 47.495071426540626,
-            lng: -122.32111328435012
+            lat: 47.495993622446896, 
+            lng: -122.31765380255679
         },
 	    "image": "/fridge-images/Burien.jpg",
         "closest_stops": [
             {
                 line: "128",
-                stop_name: "S 112th St & 10th Ave S (1/2 mile south)"
+                stop_name: "Glendale Way S & Des Moines Memorial Dr S (1/2 mile west)"
             },
             {
                 line: "132",
-                stop_name: "S 120th St & Des Moines Memorial Dr S (1 mile northwest)"
+                stop_name: "S 128th St & Roseberg Ave S (1 mile northwest)"
             }
         ]
     },
