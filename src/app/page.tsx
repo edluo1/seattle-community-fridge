@@ -32,7 +32,8 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-1/2 text-black text-xl sm:text-3xl">
             <p className="text-gray-700">
-              Seattle Community Fridge is a mutual aid network of eight refrigerator/pantry sites around the City, staffed solely by volunteers. We acquire refrigerators, build and maintain site shelters, and source and deliver food contributions to combat food insecurity among our neighbors.            </p>
+              Seattle Community Fridge is a mutual aid network of eight refrigerator/pantry sites around the City, staffed solely by volunteers. We acquire refrigerators, build and maintain site shelters, and source and deliver food contributions to combat food insecurity among our neighbors and food waste in the community.
+            </p>
             <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full">
               <div className="row-span-2">
                 <Button as="a" className="flex items-center justify-center border-black border bg-blue-500 w-full h-full my-auto rounded-lg text-black" href="/locations" title="Fridge Map">
