@@ -7,7 +7,7 @@ export default function GetFood() {
             <h1>Getting Food</h1>
             <div className="block lg:flex w-10/12 mx-auto">
                 <div className="w-full lg:w-1/3 mx-auto text-black text-xl sm:text-3xl">
-                    <ul className="space-y-6 mt-14 lg:mt-36">
+                    <ul className="space-y-6 mt-14 lg:mt-4">
                         <li>Please come to our fridge spaces to get food!</li>
                     </ul>
 
